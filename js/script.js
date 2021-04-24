@@ -1,12 +1,12 @@
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts"
+        title: "What does Html stand for?",
+        choices: ["Hyper Text Markup Language", "Hyper Tent Mom Land", "HTml", "nothing"],
+        answer: "Hyper Text MarkUp Language"
     },
     {
-        title: "js stands for______.",
-        choices: ["jelly slime", "jr. school", "jamming sun", "Java script"],
+        title: "js stands for?.",
+        choices: ["jelly slime", "jerk slum", "jam slam", "Java script"],
         answer: "Java script"
     },
     {
@@ -15,9 +15,9 @@ var questions = [
         answer: "<body></body>"
     },
     {
-        title: "Html stands for ____",
-        choices: ["<hyper link mind link>", "<hyper line matter link>", "<nothing>", "<Hypertext Markup Language>"],
-        answer: "<Hypertext Markup Language>"
+        title: "What ar the git push comands?",
+        choices: ["Git add, git commit, git push", "git push, git add, git commit", "git, githelp, gitquit "],
+        answer: "<Git add, git commit, git push>"
     },
     {
         title: "CSS stands for ____ Style Sheets.",
@@ -27,7 +27,7 @@ var questions = [
 ];
 
 
-var totalTime = 59;
+var totalTime = 60;
 var start = document.querySelector("#startQuiz");
 var count = 0;
 var totalPoints = 0;
